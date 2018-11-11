@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Text over image</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      .container {
+  margin: 1rem auto;
+  min-width: 400px;
+  width: 75vw;
+  height: 400px;
+  padding: 2rem;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1) url("https://www.dropbox.com/s/da52pxzoxnpa0hl/stroller_2.png?raw=1") no-repeat 115% top;
+}
+
+h1 {
+  position: relative;
+  width: 70%;
+}
+
+h1 span {
+  display: block;
+}
+
+.big {
+  color: #ffffff;
+  font-size: 96px;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  left: 10%;
+}
+
+.thin {
+  color: red;
+  font-weight: 300;
+  font-size: 46px;
+  position: relative;
+  top: -2.25rem;
+}
+
+.promo {
+  width: 50%;
+  line-height: 1.5;
+}
+
+.cta--transparent {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  border: 1px solid red;
+  border-radius: 3px;
+  position: absolute;
+  right: 4rem;
+  bottom: 6rem;
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+  <h1>
+    <span class="big">New</span>
+    <span class="thin">Cloud Plus Double Stroller</span>
+  </h1>
+  <p class="promo">Perfect stroller for busy families. Child and parent trays and two baskets provide adequate storage for quick trips to the park or long vacations. </p>
+  <button class="cta--transparent">Learn More</button>
+</div>
+  
+  
+
+</body>
+
+</html>
